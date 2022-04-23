@@ -1,0 +1,8 @@
+version: '3'
+services:
+  ml-e2e:
+    image: falmeidatech/ml-e2e
+    ports:
+      - "80:80"
+    volumes:
+      - ./models:/app/model/
